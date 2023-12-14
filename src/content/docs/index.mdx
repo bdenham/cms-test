@@ -1,0 +1,46 @@
+---
+title: Think Inside the Docs
+description: Exploring ways to improve our developer documentation using features that help developers think and learn inside the docs.
+template: splash
+hero:
+  tagline: Exploring ways to improve our developer documentation using features that help developers think and learn inside the docs.
+  image:
+    file: ../../assets/TITD.png
+  actions:
+    - text: Take a Look!
+      link: /about/
+      icon: right-arrow
+      variant: primary
+---
+
+import { LinkCard, Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid>
+  <Card
+    title="Storybook Integration"
+    icon="add-document"
+    href="/storybook-integration/"
+  >
+    How we can integrate Storybook components in our developer docs.
+  </Card>
+  <Card title="Expressive Code" icon="document" href="/storybook-integration/">
+    How we can create expressive code examples in our developer docs.
+  </Card>
+  <Card
+    title="Interactive Examples"
+    icon="codePen"
+    href="/storybook-integration/"
+  >
+    How we can embed interactive examples in our developer docs.
+  </Card>
+  <Card title="Interactive APIs" icon="codePen" href="/storybook-integration/">
+    How we can embed interactive GraphQL explorers in our developer docs.
+  </Card>
+  <Card title="Form-Based Entry" icon="pen" href="/storybook-integration/">
+    How we can make content entry easy for both technical and non-technical
+    writers.
+  </Card>
+  <Card title="Lighthouse Scores" icon="rocket" href="/storybook-integration/">
+    How we can improve our Lighthouse scores for our developer docs.
+  </Card>
+</CardGrid>

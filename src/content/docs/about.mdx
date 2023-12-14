@@ -1,0 +1,47 @@
+---
+title: About the Project
+description: A brief description of the project.
+pagefind: true
+---
+
+import Summary from '@components/Summary.astro';
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+<Summary>
+  Thanks for checking out the project! It's currently still a work in progress,
+  but I'm hoping to have it ready for an internal release soon.
+</Summary>
+
+<CardGrid>
+
+    <LinkCard
+    title="Storybook Integration"
+    description="Optimizing Storybook's static pages to integrate component stories to docs sites."
+    href="/storybook-integration/" />
+
+    <LinkCard
+    title="Expressive Code"
+    description="Using expressive code to make code examples easy to learn from."
+    href="/expressive-code/" />
+
+    <LinkCard
+    title="Interactive Examples"
+    description="Using codesandbox and stackblitz to create interactive examples."
+    href="/interactive-examples/" />
+
+    <LinkCard
+    title="Interactive APIs"
+    description="Using Apollo Studio to explore and interact with our APIs."
+    href="/interactive-apis/" />
+
+    <LinkCard
+    title="Form-Based Entry"
+    description="Using Darkmatter to create a UI for accessible content entry and updates."
+    href="/ui-content-entry/" />
+
+    <LinkCard
+    title="Lighthouse Scores"
+    description="Using expressive code to make code examples easy to learn from."
+    href="/lighthouse-scores/" />
+
+</CardGrid>

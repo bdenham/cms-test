@@ -1,0 +1,71 @@
+{
+  "name": "thinkdocs.dev",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "description": "Exploring the future of documentation at Adobe.",
+  "author": "bdenham <github.com/bdenham>",
+  "type": "module",
+  "scripts": {
+    "astro": "astro",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "lint": "prettier --write  \"**/*.{js,jsx,ts,tsx,md,mdx,astro}\" && eslint --fix \"src/**/*.{js,ts,jsx,tsx,astro}\"",
+    "clean": "rm -rf dist && rm -rf .astro && rm -rf node_modules && pnpm install",
+    "scrub": "rm -rf dist && rm -rf .astro && rm -rf node_modules && rm -rf pnpm-lock.yaml && rm -rf ~./.pnpm-store && pnpm install"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.3.2",
+    "@astrojs/preact": "^3.0.1",
+    "@astrojs/starlight": "^0.15.0",
+    "@astrojs/starlight-tailwind": "^2.0.1",
+    "@astrojs/tailwind": "^5.0.3",
+    "@types/preact-i18n": "^2.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "astro": "^4.0.5",
+    "darkmatter": "^2.0.3",
+    "eslint": "^8.55.0",
+    "eslint-config-preact": "^1.3.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-mdx": "^3.0.0",
+    "eslint-plugin-storybook": "^0.6.15",
+    "hast-util-from-html": "^2.0.1",
+    "hast-util-to-string": "^3.0.0",
+    "hastscript": "^8.0.0",
+    "jest": "^27.0.1",
+    "jest-preset-preact": "^4.0.5",
+    "node-html-parser": "^6.1.11",
+    "prettier": "^3.1.1",
+    "prettier-plugin-astro": "^0.12.2",
+    "rehype": "^13.0.1",
+    "sharp": "^0.33.0",
+    "starlight-links-validator": "^0.5.0",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.3.3",
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-mdx": "^3.0.0",
+    "preact": "^10.19.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "pnpm@8.12.1",
+  "private": true,
+  "sideEffects": false,
+  "keywords": [
+    "documentation",
+    "starlight",
+    "astro",
+    "astro-integration"
+  ],
+  "homepage": "https://github.com/commerce-docs/thinkdocs.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/commerce-docs/thinkdocs.dev.git"
+  },
+  "bugs": "https://github.com/commerce-docs/thinkdocs.dev/issues"
+}
